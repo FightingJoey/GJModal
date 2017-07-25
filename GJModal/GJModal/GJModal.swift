@@ -78,46 +78,24 @@ class GJModal: NSObject {
                 self.contentView.alpha = 1
             })
             
-            let animation = CABasicAnimation(keyPath: "transform")
-            animation.autoreverses = true
-            animation.duration = 0.01
-            animation.toValue = NSValue(caTransform3D: CATransform3DMakeScale(0.4, 0.4, 1))
-            self.contentView.layer.add(animation, forKey: nil)
-            
             let animation2 = CABasicAnimation(keyPath: "transform")
             animation2.autoreverses = true
             animation2.duration = d1
-//            animation2.beginTime = 0.01
+            animation2.beginTime = 0
+            animation2.fromValue = NSValue(caTransform3D: CATransform3DMakeScale(0.4, 0.4, 1))
             animation2.toValue = NSValue(caTransform3D: CATransform3DMakeScale(1.2, 1.2, 1))
-            self.contentView.layer.add(animation2, forKey: nil)
-            
             
             let animation3 = CABasicAnimation(keyPath: "transform")
             animation3.autoreverses = true
             animation3.duration = d2
-//            animation3.beginTime = 0.01+d1
+            animation3.beginTime = d1
+            animation3.fromValue = NSValue(caTransform3D: CATransform3DMakeScale(1.2, 1.2, 1))
             animation3.toValue = NSValue(caTransform3D: CATransform3DMakeScale(1, 1, 1))
-            self.contentView.layer.add(animation3, forKey: nil)
             
-//            UIView.animate(withDuration: 2, delay: 2, options: UIViewAnimationOptions.curveEaseOut, animations: {
-//                
-//            }, completion: { (finished) in
-//                
-//                if finished {
-//                    UIView.animate(withDuration: d1, animations: {
-//                        
-//                        
-//                    }) { (finished) in
-//                        UIView.animate(withDuration: d2, delay: 0, options: UIViewAnimationOptions.curveEaseOut, animations: {
-//                            
-//                        })
-//                    }
-//                }
-//                
-//            })
-            
-            
-            
+            let group = CAAnimationGroup()
+            group.duration = d2+d1
+            group.animations = [animation2,animation3]
+            self.contentView.layer.add(group, forKey: nil)
             
         } else {
             UIView.animate(withDuration: bgViewShowDuration, animations: {

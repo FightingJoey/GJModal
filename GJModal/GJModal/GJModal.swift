@@ -74,10 +74,6 @@ class GJModal: NSObject {
             let d1 = 0.2
             let d2 = 0.15
             
-            UIView.animate(withDuration: bgViewShowDuration, animations: {
-                self.contentView.alpha = 1
-            })
-            
             let animation2 = CABasicAnimation(keyPath: "transform")
             animation2.autoreverses = true
             animation2.duration = d1
@@ -96,6 +92,10 @@ class GJModal: NSObject {
             group.duration = d2+d1
             group.animations = [animation2,animation3]
             self.contentView.layer.add(group, forKey: nil)
+            
+            UIView.animate(withDuration: bgViewShowDuration, animations: {
+                self.contentView.alpha = 1
+            })
             
         } else {
             UIView.animate(withDuration: bgViewShowDuration, animations: {

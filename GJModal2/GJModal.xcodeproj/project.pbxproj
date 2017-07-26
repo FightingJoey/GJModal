@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13E83C90C8FC9FF07F31A7AD /* Pods_GJModal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69C29E80559BD29BF81F1574 /* Pods_GJModal.framework */; };
+		A8654C791F2822720028D14F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8654C781F2822720028D14F /* AppDelegate.swift */; };
+		A8654C7B1F2822720028D14F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8654C7A1F2822720028D14F /* ViewController.swift */; };
+		A8654C7E1F2822720028D14F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8654C7C1F2822720028D14F /* Main.storyboard */; };
+		A8654C801F2822720028D14F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8654C7F1F2822720028D14F /* Assets.xcassets */; };
+		A8654C831F2822720028D14F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8654C811F2822720028D14F /* LaunchScreen.storyboard */; };
+		A8654C8E1F2822720028D14F /* GJModalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8654C8D1F2822720028D14F /* GJModalTests.swift */; };
+		A8654C991F2822720028D14F /* GJModalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8654C981F2822720028D14F /* GJModalUITests.swift */; };
+		A8654CA71F2822850028D14F /* GJModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8654CA61F2822850028D14F /* GJModal.swift */; };
+		A8654CAB1F286D8E0028D14F /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8654CAA1F286D8E0028D14F /* TestView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A8654C8A1F2822720028D14F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8654C6D1F2822720028D14F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8654C741F2822720028D14F;
+			remoteInfo = GJModal;
+		};
+		A8654C951F2822720028D14F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8654C6D1F2822720028D14F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8654C741F2822720028D14F;
+			remoteInfo = GJModal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5D13EAAEB77E781883C017A0 /* Pods-GJModal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GJModal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GJModal/Pods-GJModal.debug.xcconfig"; sourceTree = "<group>"; };
+		69C29E80559BD29BF81F1574 /* Pods_GJModal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GJModal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8654C751F2822720028D14F /* GJModal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GJModal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8654C781F2822720028D14F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A8654C7A1F2822720028D14F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A8654C7D1F2822720028D14F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A8654C7F1F2822720028D14F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8654C821F2822720028D14F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A8654C841F2822720028D14F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8654C891F2822720028D14F /* GJModalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GJModalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8654C8D1F2822720028D14F /* GJModalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GJModalTests.swift; sourceTree = "<group>"; };
+		A8654C8F1F2822720028D14F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8654C941F2822720028D14F /* GJModalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GJModalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8654C981F2822720028D14F /* GJModalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GJModalUITests.swift; sourceTree = "<group>"; };
+		A8654C9A1F2822720028D14F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8654CA61F2822850028D14F /* GJModal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GJModal.swift; sourceTree = "<group>"; };
+		A8654CAA1F286D8E0028D14F /* TestView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		F7AC044A418BCDCD20C882BF /* Pods-GJModal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GJModal.release.xcconfig"; path = "Pods/Target Support Files/Pods-GJModal/Pods-GJModal.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8654C721F2822720028D14F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13E83C90C8FC9FF07F31A7AD /* Pods_GJModal.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8654C861F2822720028D14F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8654C911F2822720028D14F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A54A32E44E1FE2E674B82F3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69C29E80559BD29BF81F1574 /* Pods_GJModal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8654C6C1F2822720028D14F = {
+			isa = PBXGroup;
+			children = (
+				A8654C771F2822720028D14F /* GJModal */,
+				A8654C8C1F2822720028D14F /* GJModalTests */,
+				A8654C971F2822720028D14F /* GJModalUITests */,
+				A8654C761F2822720028D14F /* Products */,
+				D4E3A4FF9B4FD2A3D26A66F5 /* Pods */,
+				A54A32E44E1FE2E674B82F3C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A8654C761F2822720028D14F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8654C751F2822720028D14F /* GJModal.app */,
+				A8654C891F2822720028D14F /* GJModalTests.xctest */,
+				A8654C941F2822720028D14F /* GJModalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8654C771F2822720028D14F /* GJModal */ = {
+			isa = PBXGroup;
+			children = (
+				A8654C781F2822720028D14F /* AppDelegate.swift */,
+				A8654C7A1F2822720028D14F /* ViewController.swift */,
+				A8654C7C1F2822720028D14F /* Main.storyboard */,
+				A8654C7F1F2822720028D14F /* Assets.xcassets */,
+				A8654C811F2822720028D14F /* LaunchScreen.storyboard */,
+				A8654C841F2822720028D14F /* Info.plist */,
+				A8654CA61F2822850028D14F /* GJModal.swift */,
+				A8654CAA1F286D8E0028D14F /* TestView.swift */,
+			);
+			path = GJModal;
+			sourceTree = "<group>";
+		};
+		A8654C8C1F2822720028D14F /* GJModalTests */ = {
+			isa = PBXGroup;
+			children = (
+				A8654C8D1F2822720028D14F /* GJModalTests.swift */,
+				A8654C8F1F2822720028D14F /* Info.plist */,
+			);
+			path = GJModalTests;
+			sourceTree = "<group>";
+		};
+		A8654C971F2822720028D14F /* GJModalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A8654C981F2822720028D14F /* GJModalUITests.swift */,
+				A8654C9A1F2822720028D14F /* Info.plist */,
+			);
+			path = GJModalUITests;
+			sourceTree = "<group>";
+		};
+		D4E3A4FF9B4FD2A3D26A66F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D13EAAEB77E781883C017A0 /* Pods-GJModal.debug.xcconfig */,
+				F7AC044A418BCDCD20C882BF /* Pods-GJModal.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8654C741F2822720028D14F /* GJModal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8654C9D1F2822720028D14F /* Build configuration list for PBXNativeTarget "GJModal" */;
+			buildPhases = (
+				BD5678723D9E045F3F2AC325 /* [CP] Check Pods Manifest.lock */,
+				A8654C711F2822720028D14F /* Sources */,
+				A8654C721F2822720028D14F /* Frameworks */,
+				A8654C731F2822720028D14F /* Resources */,
+				FE30BB16C1E3B19D98FEAC9B /* [CP] Embed Pods Frameworks */,
+				986D756096FAC764767EE2A2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GJModal;
+			productName = GJModal;
+			productReference = A8654C751F2822720028D14F /* GJModal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A8654C881F2822720028D14F /* GJModalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8654CA01F2822720028D14F /* Build configuration list for PBXNativeTarget "GJModalTests" */;
+			buildPhases = (
+				A8654C851F2822720028D14F /* Sources */,
+				A8654C861F2822720028D14F /* Frameworks */,
+				A8654C871F2822720028D14F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8654C8B1F2822720028D14F /* PBXTargetDependency */,
+			);
+			name = GJModalTests;
+			productName = GJModalTests;
+			productReference = A8654C891F2822720028D14F /* GJModalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A8654C931F2822720028D14F /* GJModalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8654CA31F2822720028D14F /* Build configuration list for PBXNativeTarget "GJModalUITests" */;
+			buildPhases = (
+				A8654C901F2822720028D14F /* Sources */,
+				A8654C911F2822720028D14F /* Frameworks */,
+				A8654C921F2822720028D14F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8654C961F2822720028D14F /* PBXTargetDependency */,
+			);
+			name = GJModalUITests;
+			productName = GJModalUITests;
+			productReference = A8654C941F2822720028D14F /* GJModalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8654C6D1F2822720028D14F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Geselle-Joy";
+				TargetAttributes = {
+					A8654C741F2822720028D14F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					A8654C881F2822720028D14F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A8654C741F2822720028D14F;
+					};
+					A8654C931F2822720028D14F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A8654C741F2822720028D14F;
+					};
+				};
+			};
+			buildConfigurationList = A8654C701F2822720028D14F /* Build configuration list for PBXProject "GJModal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8654C6C1F2822720028D14F;
+			productRefGroup = A8654C761F2822720028D14F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8654C741F2822720028D14F /* GJModal */,
+				A8654C881F2822720028D14F /* GJModalTests */,
+				A8654C931F2822720028D14F /* GJModalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8654C731F2822720028D14F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8654C831F2822720028D14F /* LaunchScreen.storyboard in Resources */,
+				A8654C801F2822720028D14F /* Assets.xcassets in Resources */,
+				A8654C7E1F2822720028D14F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8654C871F2822720028D14F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8654C921F2822720028D14F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		986D756096FAC764767EE2A2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GJModal/Pods-GJModal-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD5678723D9E045F3F2AC325 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FE30BB16C1E3B19D98FEAC9B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GJModal/Pods-GJModal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8654C711F2822720028D14F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8654CAB1F286D8E0028D14F /* TestView.swift in Sources */,
+				A8654C7B1F2822720028D14F /* ViewController.swift in Sources */,
+				A8654C791F2822720028D14F /* AppDelegate.swift in Sources */,
+				A8654CA71F2822850028D14F /* GJModal.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8654C851F2822720028D14F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8654C8E1F2822720028D14F /* GJModalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8654C901F2822720028D14F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8654C991F2822720028D14F /* GJModalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8654C8B1F2822720028D14F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8654C741F2822720028D14F /* GJModal */;
+			targetProxy = A8654C8A1F2822720028D14F /* PBXContainerItemProxy */;
+		};
+		A8654C961F2822720028D14F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8654C741F2822720028D14F /* GJModal */;
+			targetProxy = A8654C951F2822720028D14F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A8654C7C1F2822720028D14F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8654C7D1F2822720028D14F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A8654C811F2822720028D14F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8654C821F2822720028D14F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8654C9B1F2822720028D14F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A8654C9C1F2822720028D14F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8654C9E1F2822720028D14F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D13EAAEB77E781883C017A0 /* Pods-GJModal.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GJModal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Geselle-Joy.GJModal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A8654C9F1F2822720028D14F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7AC044A418BCDCD20C882BF /* Pods-GJModal.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GJModal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Geselle-Joy.GJModal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A8654CA11F2822720028D14F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GJModalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Geselle-Joy.GJModalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GJModal.app/GJModal";
+			};
+			name = Debug;
+		};
+		A8654CA21F2822720028D14F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GJModalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Geselle-Joy.GJModalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GJModal.app/GJModal";
+			};
+			name = Release;
+		};
+		A8654CA41F2822720028D14F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = GJModalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Geselle-Joy.GJModalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GJModal;
+			};
+			name = Debug;
+		};
+		A8654CA51F2822720028D14F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = GJModalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Geselle-Joy.GJModalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GJModal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8654C701F2822720028D14F /* Build configuration list for PBXProject "GJModal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8654C9B1F2822720028D14F /* Debug */,
+				A8654C9C1F2822720028D14F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8654C9D1F2822720028D14F /* Build configuration list for PBXNativeTarget "GJModal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8654C9E1F2822720028D14F /* Debug */,
+				A8654C9F1F2822720028D14F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8654CA01F2822720028D14F /* Build configuration list for PBXNativeTarget "GJModalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8654CA11F2822720028D14F /* Debug */,
+				A8654CA21F2822720028D14F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8654CA31F2822720028D14F /* Build configuration list for PBXNativeTarget "GJModalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8654CA41F2822720028D14F /* Debug */,
+				A8654CA51F2822720028D14F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8654C6D1F2822720028D14F /* Project object */;
+}

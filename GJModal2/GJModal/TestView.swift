@@ -26,18 +26,20 @@ class TestView: UIView {
         self.backgroundColor = UIColor.red
         
         let label = UILabel()
-        label.text = "asdfasdfadsf"
+        label.text = "哈喽，大家好，欢迎大家关注我的简书：Geselle_Joy"
         label.font = UIFont.boldSystemFont(ofSize: 17)
         label.textColor = UIColor.blue
+        label.numberOfLines = 0
         self.addSubview(label)
         label.snp.makeConstraints { (make) in
             make.left.equalTo(self).offset(16)
             make.top.equalTo(self).offset(16)
+            make.right.equalTo(self).offset(-16)
         }
         
         let btn = UIButton(type: .system)
-        btn.setTitle("哈哈哈", for: .normal)
-        btn.setTitleColor(UIColor.orange, for: .normal)
+        btn.setTitle("点我移除", for: .normal)
+        btn.setTitleColor(UIColor.white, for: .normal)
         btn.addTarget(self, action: #selector(hideBtnClicked), for: UIControlEvents.touchUpInside)
         self.addSubview(btn)
         btn.snp.makeConstraints { (make) in
